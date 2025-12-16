@@ -53,8 +53,8 @@ def extract_features(img):
 
 # --- Streamlit UI ---
 st.set_page_config(page_title="Fruit Ripeness Detector", layout="centered")
-st.title("🍎🍌 Fruit Ripeness Detector")
-st.markdown("**99.14% Accurate • Classical ML Only • No Deep Learning Needed**")
+st.title("🍎🍌🍊 Fruit Ripeness Detector")
+st.markdown("**99.14% Accuracy • LightGBM**")
 
 uploaded_file = st.file_uploader("Upload a fruit photo", type=["jpg", "jpeg", "png"])
 
