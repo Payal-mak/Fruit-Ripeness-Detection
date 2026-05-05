@@ -40,16 +40,13 @@ A comprehensive **Fruit Ripeness Detection** system that classifies fruits into 
 
 **Best ML Model**: LightGBM 🏆
 
-### Deep Learning Results (Part 2)
-*(Update these with your actual metrics from `Fruit_Ripeness_DL_2.ipynb`)*
+### Table: Deep Learning Model Performance on Test Set
 
-| Model             | Test Accuracy | Precision | Recall | F1-Score | Remarks                  |
-|-------------------|---------------|-----------|--------|----------|--------------------------|
-| EfficientNet-B3   | ...%          | ...       | ...    | ...      | Fast & efficient         |
-| ViT-B16           | ...%          | ...       | ...    | ...      | Strong global attention  |
-| Swin-Tiny         | ...%          | ...       | ...    | ...      | Hierarchical features    |
-
-**Best DL Model**: *(to be filled based on your experiments)*
+| Model          | Test Accuracy | Val Accuracy | Weighted F1 | Weighted Precision | Weighted Recall | Speed (ms/img) |
+|----------------|---------------|--------------|-------------|--------------------|-----------------|----------------|
+| **Swin-Tiny**  | **99.88%**    | **99.93%**   | **0.9988**  | **0.9989**         | **0.9988**      | 5.82           |
+| **EfficientNet-B3** | **99.85%** | **99.93%**   | **0.9985**  | **0.9984**         | **0.9985**      | 5.66           |
+| **ViT-B16**    | 99.60%        | 99.86%       | 0.9960      | 0.9959             | 0.9960          | 5.52           |
 
 ---
 
@@ -109,13 +106,4 @@ Try the deployed app here:
 - DL: PyTorch, timm / Hugging Face Transformers, EfficientNet, ViT, Swin Transformer
 - Deployment: Streamlit
 - Visualization: Matplotlib, Seaborn
-
-### Table 6: Deep Learning Model Performance on Test Set
-
-| Model          | Test Accuracy | Val Accuracy | Weighted F1 | Weighted Precision | Weighted Recall | Speed (ms/img) |
-|----------------|---------------|--------------|-------------|--------------------|-----------------|----------------|
-| **Swin-Tiny**  | **99.88%**    | **99.93%**   | **0.9988**  | **0.9989**         | **0.9988**      | 5.82           |
-| **EfficientNet-B3** | **99.85%** | **99.93%**   | **0.9985**  | **0.9984**         | **0.9985**      | 5.66           |
-| **ViT-B16**    | 99.60%        | 99.86%       | 0.9960      | 0.9959             | 0.9960          | 5.52           |
-
 ---
