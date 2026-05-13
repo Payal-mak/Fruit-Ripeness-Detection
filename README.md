@@ -9,6 +9,8 @@ A comprehensive **Fruit Ripeness Detection** system that classifies fruits into 
 
 ---
 
+[![Watch the video](https://img.youtube.com/vi/UKg3_HHe8Vw/hqdefault.jpg)](https://www.youtube.com/watch?v=UKg3_HHe8Vw)
+
 ## 🚀 Project Highlights
 
 ### Machine Learning Approach
